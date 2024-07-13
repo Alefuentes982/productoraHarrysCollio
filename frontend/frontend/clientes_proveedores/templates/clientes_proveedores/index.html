@@ -1,0 +1,16 @@
+{% extends 'dashboard/base.html' %}
+
+{% block content %}
+  <h1>Clientes</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Correo</th>
+      </tr>
+    </thead>
+    <tbody id="clientes-table-body"></tbody>
+  </table>
+  <button id="load-clientes" class="btn btn-primary">Cargar Clientes</button>
+{% endblock %}

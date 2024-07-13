@@ -1,0 +1,17 @@
+{% extends 'dashboard/base.html' %}
+
+{% block content %}
+  <h1>Ventas</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Producto</th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+    <tbody id="ventas-table-body"></tbody>
+  </table>
+  <button id="load-ventas" class="btn btn-primary">Cargar Ventas</button>
+{% endblock %}
